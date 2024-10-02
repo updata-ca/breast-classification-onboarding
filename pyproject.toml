@@ -1,0 +1,18 @@
+[project]
+name = "curated-breast-cancer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "gdown>=5.2.0",
+    "protobuf>=4.25.5",
+    "tensorflow>=2.17.0",
+    "tensorflow-datasets>=4.9.6",
+    "matplotlib>=3.9.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+]
